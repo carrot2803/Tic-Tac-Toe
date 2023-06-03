@@ -1,4 +1,4 @@
-name: Gh-Pages
+name: Tic-Tac-Toe
 
 on:
   push:
