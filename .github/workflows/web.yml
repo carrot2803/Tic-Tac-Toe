@@ -10,10 +10,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
-        with:
-          node-version: '16'
-      - uses: subosito/flutter-action@v1
-        with:
-          node-version: '16'
+      - uses: actions/checkout@v3
+      - uses: subosito/flutter-action@v2
       - uses: bluefireteam/flutter-gh-pages@v7
